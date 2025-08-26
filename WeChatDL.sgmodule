@@ -2,6 +2,6 @@
 #!desc=阻止微信热更新模块
 
 [Rule]
-DOMAIN,dl.wechat.com,REJECT,extended-matching,pre-matching
-DOMAIN,dldir1.qq.com,REJECT,extended-matching,pre-matching
-DOMAIN,dldir1v6.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,dl.wechat.com,REJECT-DROP,extended-matching,pre-matching
+DOMAIN,dldir1.qq.com,REJECT-DROP,extended-matching,pre-matching
+DOMAIN,dldir1v6.qq.com,REJECT-DROP,extended-matching,pre-matching
