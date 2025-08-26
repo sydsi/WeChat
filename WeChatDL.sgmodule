@@ -1,5 +1,5 @@
 #!name=微信热更新
-#!desc=阻止微信热更新模块
+#!desc=阻止微信热更新模块 使用REJECT-DROP
 
 [Rule]
 DOMAIN,dl.wechat.com,REJECT-DROP,extended-matching,pre-matching
